@@ -1,4 +1,4 @@
-  1  git init
+ 1  git init
     2  git config --global user.name "Fahmi Firmansyah"
     3  git config --global user.email fahmifmstikom@gmail.com
     4  git config --list
@@ -78,3 +78,11 @@
    78  ssh-add ~/.ssh/id_rsa
    79  git push origin master
    80  history
+   81  ls -la ~/.ssh/ 					---liat folder
+   82  git add.
+   83  git add .
+   84  git status
+   85  git commit -m "tambah style, belajar gaya"
+   86  git push origin master
+   87  git status
+   88  history

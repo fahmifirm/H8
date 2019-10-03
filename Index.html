@@ -2,53 +2,89 @@
 <head>
     <title>
      Biografi 
-    </title>
+    </title>         
     <link rel=icon href=h8.png sizes="128x128" type="image/png">
     <link rel="stylesheet" href="assets/css/styleku.css">
-    <style>
-        .data-ktp {
-            color: green;
-        }
-    .data-ktp-nonprimary{
-        background: yellow;
-    }
-     #data-ktp-primary {
-         text-decoration: underline
-     }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
 </head>
 <body>
+        <style>
+            body {
+                font-family: 'vollkrin', cursive;
+            }
+                a,b{
+                    color: black;
+                }
+                .profil-photo {
+                    display: inline-block;
+                    border: 20px solid red;
+                }
+                .profil-data {
+                    border: 1px solid red;
+                    border-collapse: collapse;
+                }
+                .profil-data th{
+                    border: 1px solid red;
+                    text-align: center;
+                    font-weight: bold;
+                    padding: 8px 24px;
+                }
+                .profil-data td {
+                    padding: 10px;
+                    border:1px solid red;
+                    text-align: center;
+                }
+                .profil-data td ul,
+                .profil-data td ol{
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                    left: 20px;
+                }     
+        </style>
 <!--  -->
     <em  style = "color : red" >
-       
-         <h1>  <img src= "h8.png" alt=""> Biodata <img src= "h8.png" alt=""> </h1>
+    <div class="profil-photo">
+        <h1>  <img height="100px" src= "h8.png" alt="" > Biodata <img height="100px" src= "h8.png" alt="" > </h1>
+    </div>
          <hr> 
+         <table class="profil-data">
+                <thead>
+                    <th>Nama</th>
+                    <th>Gener</th>
+                    <th>Umur</th>
+                    <th>Hobi</th>
+                    <th>Interest</th>
+                    <th>Suka Web</th>
+                </thead>
+                <tr>
+                    <td>Moch. Nur Fahmi Firmansyah</td>
+                    <td>?????</td>
+                    <td>25</td>
+                    <td>
+                        <ol>
+                            <li>Makan</li>
+                            <li>Tidur</li>
+                            <li>Belajar</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul>
+                                <li>Musik</li>
+                                <li>Game</li>
+                                <li>Mesin</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                                <li><a href="https://www.facebook.com/" target="_blank" ><b>facebook</b></a></li>
+                                <li><a href="https://www.Instagram.com/" target="_blank" ><b>Instagram</b></a></li>
+                                <li><a href="https://www.Github.com/" target="_blank" ><b>Github</b></a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
     </em>
     <br/>
-
-    <b id = "data-ktp-primary" class="data-ktp"> Nama : </b> Mochammad Nur Fahmi Firmansyah
-    <p>
-    <b class="data-ktp data-ktp-nonprimary"> Umur : </b> 25
-    <p>
-    <b> Hobi : </b>
-    <p>
-    <ol>
-        <li>Makan</li>
-        <li>Tidur</li>
-        <li>Belajar</li>
-    </ol>
-
-    <p><b> Interest : </b><p>
-     <ul>
-        <li>Musik</li>
-        <li>Game</li>
-        <li>Mesin</li>
-    </ul>
-    <p><b> Suka Web : </b><p>
-    <ul>
-       <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
-       <li><a href="http://www.instagram.com" target="_blank">Instagram</a></li>
-       <li><a href="http://www.youtube.com" target="_blank">Youtube</a></li>
-    </ul>
 </body>
 </html>
