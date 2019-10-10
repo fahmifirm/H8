@@ -1,9 +1,37 @@
-.center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
- }
-b {
-   color: blue;
-  }
+   b   {
+         color: black;
+       }
+  body {
+         font-family: 'vollkrin', cursive;
+         background: lightblue;
+       }
+   h1  {
+      text-align: center;
+       }
+   .profil-photo {
+       display: inline-block;
+       border: 20px solid red;
+   }
+   .profil-data {
+       border: 5px solid black;
+       border-collapse: collapse;
+   }
+   .profil-data th{
+       border: 5px solid black;
+       text-align: center;
+       font-weight: bold;
+       padding: 20px 40px; 
+   }
+   .profil-data td {
+       padding: 10px;
+       border:5px solid black;
+       text-align: center;
+   }
+   .profil-data td ul,
+   .profil-data td ol{
+       margin: 0;
+       padding: 0;
+       position: relative;
+       left: 20px;
+   }     
+   

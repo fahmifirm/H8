@@ -1,90 +1,90 @@
 <html>
+
 <head>
     <title>
-     Biografi 
-    </title>         
+        Biografi
+    </title>
     <link rel=icon href=h8.png sizes="128x128" type="image/png">
-    <link rel="stylesheet" href="assets/css/styleku.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
 </head>
+
 <body>
-        <style>
-            body {
-                font-family: 'vollkrin', cursive;
-            }
-                a,b{
-                    color: black;
-                }
-                .profil-photo {
-                    display: inline-block;
-                    border: 20px solid red;
-                }
-                .profil-data {
-                    border: 1px solid red;
-                    border-collapse: collapse;
-                }
-                .profil-data th{
-                    border: 1px solid red;
-                    text-align: center;
-                    font-weight: bold;
-                    padding: 8px 24px;
-                }
-                .profil-data td {
-                    padding: 10px;
-                    border:1px solid red;
-                    text-align: center;
-                }
-                .profil-data td ul,
-                .profil-data td ol{
-                    margin: 0;
-                    padding: 0;
-                    position: relative;
-                    left: 20px;
-                }     
-        </style>
-<!--  -->
-    <em  style = "color : red" >
-    <div class="profil-photo">
-        <h1>  <img height="100px" src= "h8.png" alt="" > Biodata <img height="100px" src= "h8.png" alt="" > </h1>
-    </div>
-         <hr> 
-         <table class="profil-data">
-                <thead>
-                    <th>Nama</th>
-                    <th>Gener</th>
-                    <th>Umur</th>
-                    <th>Hobi</th>
-                    <th>Interest</th>
-                    <th>Suka Web</th>
-                </thead>
-                <tr>
-                    <td>Moch. Nur Fahmi Firmansyah</td>
-                    <td>?????</td>
-                    <td>25</td>
-                    <td>
-                        <ol>
-                            <li>Makan</li>
-                            <li>Tidur</li>
-                            <li>Belajar</li>
-                        </ol>
-                    </td>
-                    <td>
-                        <ul>
-                                <li>Musik</li>
-                                <li>Game</li>
-                                <li>Mesin</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                                <li><a href="https://www.facebook.com/" target="_blank" ><b>facebook</b></a></li>
-                                <li><a href="https://www.Instagram.com/" target="_blank" ><b>Instagram</b></a></li>
-                                <li><a href="https://www.Github.com/" target="_blank" ><b>Github</b></a></li>
-                        </ul>
-                    </td>
-                </tr>
+    <div class="container">
+        <div class="p-3 mb-2 bg-dark text-white">
+        <div class="row">
+            <div class="col-sm-3 text center">
+                <img src="h8.png" class="img-fluid rounded-circle" alt="">
+                <h1> Biodata </h1>
+            </div>
+            <hr> <!-- membuat garis-->
+            <br /> <!-- membuat Spasi-->
+
+            <div class="col-sm-9 table-responsive">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nama</th>
+                            <th scope="col">Gener</th>
+                            <th scope="col">Umur</th>
+                            <th scope="col">Hobi</th>
+                            <th scope="col">Interest</th>
+                            <th scope="col">Suka Web</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <div>
+                            <th scope="col">1</th>
+                            <td>Moch. Nur Fahmi Firmansyah</td>
+                            <td>?????</td>
+                            <td>25</td>
+                            <td>
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-dark">Makan</li>
+                                    <li class="list-group-item list-group-item-dark">Tidur</li>
+                                    <li class="list-group-item list-group-item-dark">Belajar</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="list-group"">
+                                        <li class=" list-group-item list-group-item-dark">Musik</li>
+                                    <li class="list-group-item list-group-item-dark">Game</li>
+                                    <li class="list-group-item list-group-item-dark">Mesin</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-dark"><a href="https://www.facebook.com/"
+                                            target="_blank"><b>facebook</b></a></li>
+                                    <li class="list-group-item list-group-item-dark"><a
+                                            href="https://www.Instagram.com/" target="_blank"><b>Instagram</b></a></li>
+                                    <li class="list-group-item list-group-item-dark"><a href="https://www.Github.com/"
+                                            target="_blank"><b>Github</b></a></li>
+                                </ul>
+                            </td>
+                        </div>
+                </div>
+        </div>
+            </tr>>
+            </tbody>
+
             </table>
-    </em>
-    <br/>
+            <br />
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous">
+            </script>
+        </div>
 </body>
+
 </html>

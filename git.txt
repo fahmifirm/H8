@@ -1,4 +1,4 @@
- 1  git init
+    1  git init
     2  git config --global user.name "Fahmi Firmansyah"
     3  git config --global user.email fahmifmstikom@gmail.com
     4  git config --list
@@ -86,3 +86,28 @@
    86  git push origin master
    87  git status
    88  history
+ 89  git status
+   90  cd A
+   91  cd A;
+   92  cd A;/
+   93  clear
+   94  cd A;\h8
+   95  cd A:\h8
+   96  clear
+   97  git checkout -b layouting-by-valdi
+   98  git branch -a
+   99  git log
+  100  git push origin layouting-by-valdi
+  101  git atatus
+  102  git add .
+  103  git commit -m "layouting-by-valdi"
+  104  git mit
+  105  git push oringin layouting-by-valdi
+  106  clear
+  107  git push origin layouting-by-valdi
+  108  git checkout master
+  109  git branch -a
+  110  git pull origin master
+  111  history
+
+
